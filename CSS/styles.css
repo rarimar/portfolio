@@ -1,3 +1,9 @@
 body{
+    font-family: 'Mukta', sans-serif;
     background-color: #1d1d1d;
+    color: #e6e6e6;
+}
+
+p{
+    font-size: 20px;
 }

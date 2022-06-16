@@ -1,9 +1,37 @@
-body{
-    font-family: 'Mukta', sans-serif;
-    background-color: #1d1d1d;
-    color: #e6e6e6;
+section{
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
 }
 
-p{
-    font-size: 20px;
+.hero{
+    background-color: rgb(30, 28, 41);
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
 }

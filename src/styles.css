@@ -4,9 +4,7 @@ body {
 }
 
 section {
-  /* height: 500px; */
   background-color: white;
-  border: solid black 1px;
 }
 
 .hero {
@@ -51,6 +49,11 @@ h2{
 p {
   margin: 0;
   font-size: 30px;
+  font-weight: 300;
+}
+
+.subtext{
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -106,6 +109,13 @@ p {
   padding: 80px;
 }
 
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
 .headshot{
   width: 300px;
   border-radius: 150px; /*This create a circle around the picture*/
@@ -114,4 +124,32 @@ p {
 .headshot-container {
   display: flex;
   align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px lightgray;
+  margin: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image{
+  margin-top: 25px;
+  width: 300px;
+  border-radius: 225px;
+}
+
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link{
+  text-decoration:none;
+  color: #ef744b;
 }
